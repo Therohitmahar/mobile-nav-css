@@ -49,7 +49,8 @@ img.active{
     display: block;
 }
 .tabs.active, .tabs.active:hover{
-    color:rgb(10, 115, 235)
+    color:rgb(10, 115, 235);
+    scale : 1.01;
 }
 .lower-section{
     background-color: #ccc;
@@ -74,6 +75,7 @@ img.active{
 }
 .tabs:hover{
     color: #0351a0;
+    scale: 1.1;
 }
 
 
