@@ -21,6 +21,7 @@ main{
     max-height: 400px;
     border-radius: 10px;
     border: 3px solid rgb(255, 255, 255);
+    scale: 1.2;
 }
 .upper-section{
     background-size: cover;
@@ -31,7 +32,7 @@ main{
 img{
    height: 350px;
    width: 230px;
-   
+   display: none;
    border-top-left-radius: 10px;
    border-top-right-radius: 10px;
    border-bottom-left-radius: 0;
@@ -44,7 +45,12 @@ i{
 p{
     font-size:8px;
 }
-
+img.active{
+    display: block;
+}
+.tabs.active, .tabs.active:hover{
+    color:rgb(10, 115, 235)
+}
 .lower-section{
     background-color: #ccc;
     display: flex;
@@ -52,8 +58,6 @@ p{
     width: 230px;
     max-width: 230px;
     max-height: 50px;
-    /* border-top-left-radius: 0px;
-    border-top-right-radius: 0px; */
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     justify-content: center;
@@ -69,7 +73,7 @@ p{
     cursor: pointer;
 }
 .tabs:hover{
-    color: #017FFF;
+    color: #0351a0;
 }
 
 
